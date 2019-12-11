@@ -1,0 +1,11 @@
+select borneNum,borneDerniereRevision,borneIndiceCompteurUnite, typeBorneCode,dureeRevision,nbJoursEntreRevision,nbUnitesEntreRevision from borne inner join station on borne.statNum=station.statNum;
+
+
+select borneNum,borneDerniereRevision,borneIndiceCompteurUnite, typeBorne.typeBorneCode,dureeRevision,nbJoursEntreRevision,nbUnitesEntreRevision from borne inner join station on borne.statNum=station.statNum inner join typeBorne on typeBorne.typeBorneCode= borne.typeBorneCode;
+
+select borneNum,borneDerniereRevision,borneIndiceCompteurUnite,typeBorne.typeBorneCode,dureeRevision,nbJoursEntreRevision,nbUnitesEntreRevision
+from borne inner join station on borne.statNum=station.statNum inner join typeBorne on typeBorne.typeBorneCode= borne.typeBorneCode
+where statNum=1;
+
+
+

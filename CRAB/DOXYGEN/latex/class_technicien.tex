@@ -1,0 +1,101 @@
+\hypertarget{class_technicien}{}\section{Technicien Class Reference}
+\label{class_technicien}\index{Technicien@{Technicien}}
+
+
+The \hyperlink{class_technicien}{Technicien} class Permet de récupérer les informations des techniciens afin de les affecter à des visites équitablement.  
+
+
+
+
+{\ttfamily \#include $<$technicien.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_technicien_a2b13414c79a7a4f040522c34e0fd0aa6}{Technicien} (int un\+Matricule, Q\+String un\+Nom, Q\+String un\+Prenom)
+\begin{DoxyCompactList}\small\item\em Technicien\+::\+Technicien. \end{DoxyCompactList}\item 
+int \hyperlink{class_technicien_af111a0a23ae6ce1dbcb552817266744e}{get\+Temps\+Occupe} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_technicien_af111a0a23ae6ce1dbcb552817266744e}{Technicien\+::get\+Temps\+Occupe}. \end{DoxyCompactList}\item 
+void \hyperlink{class_technicien_ae214082b07ffa459ebfb99e9efd4da20}{affecter\+Visite} (\hyperlink{classvisite}{visite} $\ast$une\+Visite)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_technicien_ae214082b07ffa459ebfb99e9efd4da20}{Technicien\+::affecter\+Visite}. \end{DoxyCompactList}\item 
+Q\+Vector$<$ \hyperlink{classvisite}{visite} $\ast$ $>$ \hyperlink{class_technicien_a8ad18bf2c5758dbb6261594c544e47f9}{get\+Les\+Visites} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_technicien_a8ad18bf2c5758dbb6261594c544e47f9}{Technicien\+::get\+Les\+Visites}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_technicien_a82c56619d7835292c0cfe48ceb05fa21}\label{class_technicien_a82c56619d7835292c0cfe48ceb05fa21}} 
+Q\+String {\bfseries get\+Info} ()
+\item 
+\mbox{\Hypertarget{class_technicien_a6fe07be5429f9239023e4a8f551505ad}\label{class_technicien_a6fe07be5429f9239023e4a8f551505ad}} 
+int {\bfseries get\+Matricule} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_technicien}{Technicien} class Permet de récupérer les informations des techniciens afin de les affecter à des visites équitablement. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_technicien_a2b13414c79a7a4f040522c34e0fd0aa6}\label{class_technicien_a2b13414c79a7a4f040522c34e0fd0aa6}} 
+\index{Technicien@{Technicien}!Technicien@{Technicien}}
+\index{Technicien@{Technicien}!Technicien@{Technicien}}
+\subsubsection{\texorpdfstring{Technicien()}{Technicien()}}
+{\footnotesize\ttfamily Technicien\+::\+Technicien (\begin{DoxyParamCaption}\item[{int}]{un\+Matricule,  }\item[{Q\+String}]{un\+Nom,  }\item[{Q\+String}]{un\+Prenom }\end{DoxyParamCaption})}
+
+
+
+Technicien\+::\+Technicien. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em un\+Nom} & le nom du technicien \\
+\hline
+{\em un\+Prenom} & le prenom du technicien Constructeur permettant affecter des vistes au technicien pour le vecteur les\+Visites \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_technicien_ae214082b07ffa459ebfb99e9efd4da20}\label{class_technicien_ae214082b07ffa459ebfb99e9efd4da20}} 
+\index{Technicien@{Technicien}!affecter\+Visite@{affecter\+Visite}}
+\index{affecter\+Visite@{affecter\+Visite}!Technicien@{Technicien}}
+\subsubsection{\texorpdfstring{affecter\+Visite()}{affecterVisite()}}
+{\footnotesize\ttfamily void Technicien\+::affecter\+Visite (\begin{DoxyParamCaption}\item[{\hyperlink{classvisite}{visite} $\ast$}]{une\+Visite }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_technicien_ae214082b07ffa459ebfb99e9efd4da20}{Technicien\+::affecter\+Visite}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em une\+Visite} & pointeur de visite afin de determiner de quelle visite on parle ajoute la visite une\+Visite dans les visites affectées au technicien \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_technicien_a8ad18bf2c5758dbb6261594c544e47f9}\label{class_technicien_a8ad18bf2c5758dbb6261594c544e47f9}} 
+\index{Technicien@{Technicien}!get\+Les\+Visites@{get\+Les\+Visites}}
+\index{get\+Les\+Visites@{get\+Les\+Visites}!Technicien@{Technicien}}
+\subsubsection{\texorpdfstring{get\+Les\+Visites()}{getLesVisites()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{classvisite}{visite} $\ast$ $>$ Technicien\+::get\+Les\+Visites (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_technicien_a8ad18bf2c5758dbb6261594c544e47f9}{Technicien\+::get\+Les\+Visites}. 
+
+\begin{DoxyReturn}{Returns}
+retourne l\textquotesingle{}ensemble des visites affectées au technicien Permet de savoir quel technicien a quel visites de programmé 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_technicien_af111a0a23ae6ce1dbcb552817266744e}\label{class_technicien_af111a0a23ae6ce1dbcb552817266744e}} 
+\index{Technicien@{Technicien}!get\+Temps\+Occupe@{get\+Temps\+Occupe}}
+\index{get\+Temps\+Occupe@{get\+Temps\+Occupe}!Technicien@{Technicien}}
+\subsubsection{\texorpdfstring{get\+Temps\+Occupe()}{getTempsOccupe()}}
+{\footnotesize\ttfamily int Technicien\+::get\+Temps\+Occupe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_technicien_af111a0a23ae6ce1dbcb552817266744e}{Technicien\+::get\+Temps\+Occupe}. 
+
+\begin{DoxyReturn}{Returns}
+Retourne la durée totale en minutes des visites affectées au technicien 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+technicien.\+h\item 
+technicien.\+cpp\end{DoxyCompactItemize}

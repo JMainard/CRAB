@@ -1,0 +1,92 @@
+\hypertarget{class_passerelle}{}\section{Passerelle Class Reference}
+\label{class_passerelle}\index{Passerelle@{Passerelle}}
+
+
+The \hyperlink{class_passerelle}{Passerelle} class Permet d\textquotesingle{}effectuer toutes les requêtes sql.  
+
+
+
+
+{\ttfamily \#include $<$passerelle.\+h$>$}
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+Vector$<$ \hyperlink{class_technicien}{Technicien} $\ast$ $>$ \hyperlink{class_passerelle_a231a84d255da1885456f4637d4c88ee5}{charger\+Les\+Techniciens} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a231a84d255da1885456f4637d4c88ee5}{Passerelle\+::charger\+Les\+Techniciens}. \end{DoxyCompactList}\item 
+static Q\+Vector$<$ \hyperlink{class_borne}{Borne} $>$ \hyperlink{class_passerelle_a82347f95ecee56a567c080102c137ccd}{charger\+Les\+Bornes} (int un\+Id\+Station)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a82347f95ecee56a567c080102c137ccd}{Passerelle\+::charger\+Les\+Bornes}. \end{DoxyCompactList}\item 
+static Q\+Vector$<$ \hyperlink{class_station}{Station} $>$ \hyperlink{class_passerelle_a58f4340157dc6a2b5f720cf7ab09c980}{charger\+Les\+Stations} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a58f4340157dc6a2b5f720cf7ab09c980}{Passerelle\+::charger\+Les\+Stations}. \end{DoxyCompactList}\item 
+static void \hyperlink{class_passerelle_a82488527c9e08f60c905c0ec8a95187a}{enregistrer\+Visite} (\hyperlink{classvisite}{visite} une\+Visite, int mat\+Le\+Technicien, qint64 compteur\+Visite\+Id)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_passerelle_a82488527c9e08f60c905c0ec8a95187a}{Passerelle\+::enregistrer\+Visite}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_passerelle}{Passerelle} class Permet d\textquotesingle{}effectuer toutes les requêtes sql. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_passerelle_a82347f95ecee56a567c080102c137ccd}\label{class_passerelle_a82347f95ecee56a567c080102c137ccd}} 
+\index{Passerelle@{Passerelle}!charger\+Les\+Bornes@{charger\+Les\+Bornes}}
+\index{charger\+Les\+Bornes@{charger\+Les\+Bornes}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{charger\+Les\+Bornes()}{chargerLesBornes()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{class_borne}{Borne} $>$ Passerelle\+::charger\+Les\+Bornes (\begin{DoxyParamCaption}\item[{int}]{un\+Id\+Station }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a82347f95ecee56a567c080102c137ccd}{Passerelle\+::charger\+Les\+Bornes}. 
+
+\begin{DoxyReturn}{Returns}
+charges les bornes des stations dans un vecteur 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_passerelle_a58f4340157dc6a2b5f720cf7ab09c980}\label{class_passerelle_a58f4340157dc6a2b5f720cf7ab09c980}} 
+\index{Passerelle@{Passerelle}!charger\+Les\+Stations@{charger\+Les\+Stations}}
+\index{charger\+Les\+Stations@{charger\+Les\+Stations}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{charger\+Les\+Stations()}{chargerLesStations()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{class_station}{Station} $>$ Passerelle\+::charger\+Les\+Stations (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a58f4340157dc6a2b5f720cf7ab09c980}{Passerelle\+::charger\+Les\+Stations}. 
+
+\begin{DoxyReturn}{Returns}
+charge les sations de la bdd 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_passerelle_a231a84d255da1885456f4637d4c88ee5}\label{class_passerelle_a231a84d255da1885456f4637d4c88ee5}} 
+\index{Passerelle@{Passerelle}!charger\+Les\+Techniciens@{charger\+Les\+Techniciens}}
+\index{charger\+Les\+Techniciens@{charger\+Les\+Techniciens}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{charger\+Les\+Techniciens()}{chargerLesTechniciens()}}
+{\footnotesize\ttfamily Q\+Vector$<$ \hyperlink{class_technicien}{Technicien} $\ast$ $>$ Passerelle\+::charger\+Les\+Techniciens (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a231a84d255da1885456f4637d4c88ee5}{Passerelle\+::charger\+Les\+Techniciens}. 
+
+\begin{DoxyReturn}{Returns}
+Charge les techniciens dans un vecteur 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_passerelle_a82488527c9e08f60c905c0ec8a95187a}\label{class_passerelle_a82488527c9e08f60c905c0ec8a95187a}} 
+\index{Passerelle@{Passerelle}!enregistrer\+Visite@{enregistrer\+Visite}}
+\index{enregistrer\+Visite@{enregistrer\+Visite}!Passerelle@{Passerelle}}
+\subsubsection{\texorpdfstring{enregistrer\+Visite()}{enregistrerVisite()}}
+{\footnotesize\ttfamily void Passerelle\+::enregistrer\+Visite (\begin{DoxyParamCaption}\item[{\hyperlink{classvisite}{visite}}]{une\+Visite,  }\item[{int}]{mat\+Le\+Technicien,  }\item[{qint64}]{compteur\+Visite\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_passerelle_a82488527c9e08f60c905c0ec8a95187a}{Passerelle\+::enregistrer\+Visite}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em une\+Visite} & \+: Vecteur des visites du technicien \\
+\hline
+{\em mat\+Le\+Technicien} & \+: Matricule du technicien \\
+\hline
+{\em compteur\+Visite\+Id} & \+: Id Visite Implémente les visites dans la bdd et créer un ID et les relie a techniciens et Bornes. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+passerelle.\+h\item 
+passerelle.\+cpp\end{DoxyCompactItemize}

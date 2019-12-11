@@ -1,0 +1,59 @@
+\hypertarget{class_borne}{}\section{Borne Class Reference}
+\label{class_borne}\index{Borne@{Borne}}
+
+
+The \hyperlink{class_borne}{Borne} class Permet de connaitre les bornes à réviser et leur durée.  
+
+
+
+
+{\ttfamily \#include $<$borne.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_borne_aba0be924c6cb39fe8cdeffe27407fc3f}\label{class_borne_aba0be924c6cb39fe8cdeffe27407fc3f}} 
+{\bfseries Borne} (int un\+Id\+Borne, \hyperlink{class_date}{Date} une\+Date\+Derniere\+Revision, int un\+Indice\+Compteur\+Unites, \hyperlink{class_type_borne}{Type\+Borne} un\+Type)
+\item 
+int \hyperlink{class_borne_aba8f90c81ef4efbe239e67e12015bb44}{get\+Duree\+Revision} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_borne_aba8f90c81ef4efbe239e67e12015bb44}{Borne\+::get\+Duree\+Revision}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_borne_a40c1a1a990a10b8bc1421a1a39b7300a}{est\+A\+Reviser} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_borne_a40c1a1a990a10b8bc1421a1a39b7300a}{Borne\+::est\+A\+Reviser}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_borne}{Borne} class Permet de connaitre les bornes à réviser et leur durée. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_borne_a40c1a1a990a10b8bc1421a1a39b7300a}\label{class_borne_a40c1a1a990a10b8bc1421a1a39b7300a}} 
+\index{Borne@{Borne}!est\+A\+Reviser@{est\+A\+Reviser}}
+\index{est\+A\+Reviser@{est\+A\+Reviser}!Borne@{Borne}}
+\subsubsection{\texorpdfstring{est\+A\+Reviser()}{estAReviser()}}
+{\footnotesize\ttfamily bool Borne\+::est\+A\+Reviser (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_borne_a40c1a1a990a10b8bc1421a1a39b7300a}{Borne\+::est\+A\+Reviser}. 
+
+\begin{DoxyReturn}{Returns}
+retourne si oui ou non la borne est à réviser Procédure permettant de savoir par un bool si la borne doit etre réviser en fonction du nombre de jour ou de ce qu\textquotesingle{}il y a eu de consommée en W\+A\+T\+TS. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_borne_aba8f90c81ef4efbe239e67e12015bb44}\label{class_borne_aba8f90c81ef4efbe239e67e12015bb44}} 
+\index{Borne@{Borne}!get\+Duree\+Revision@{get\+Duree\+Revision}}
+\index{get\+Duree\+Revision@{get\+Duree\+Revision}!Borne@{Borne}}
+\subsubsection{\texorpdfstring{get\+Duree\+Revision()}{getDureeRevision()}}
+{\footnotesize\ttfamily int Borne\+::get\+Duree\+Revision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_borne_aba8f90c81ef4efbe239e67e12015bb44}{Borne\+::get\+Duree\+Revision}. 
+
+\begin{DoxyReturn}{Returns}
+retourne un int indiquant la durée de revision Procédure retournant la durée en minutes requise pour réaliser la révision sur la borne, cette durée étant fonction du type de la borne 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+borne.\+h\item 
+borne.\+cpp\end{DoxyCompactItemize}

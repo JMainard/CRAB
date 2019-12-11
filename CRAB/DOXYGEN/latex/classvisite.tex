@@ -1,0 +1,96 @@
+\hypertarget{classvisite}{}\section{visite Class Reference}
+\label{classvisite}\index{visite@{visite}}
+
+
+The visite class Permet de référencé les visites à réaliser à partir de la base de données.  
+
+
+
+
+{\ttfamily \#include $<$visite.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classvisite_a197936c1244f7c9fd0a2eca7038533f9}{visite} (Q\+Vector$<$ \hyperlink{class_borne}{Borne} $>$ les\+Bornes\+A\+Visiter, \hyperlink{class_station}{Station} $\ast$une\+Station)
+\begin{DoxyCompactList}\small\item\em visite\+::visite \end{DoxyCompactList}\item 
+int \hyperlink{classvisite_a608738dbddc358c0805228e0aac5818c}{get\+Duree\+Totale} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classvisite_a608738dbddc358c0805228e0aac5818c}{visite\+::get\+Duree\+Totale} \end{DoxyCompactList}\item 
+char \hyperlink{classvisite_a6da950d2a01048158c7abcc1ebdfec22}{get\+Etat} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classvisite_a6da950d2a01048158c7abcc1ebdfec22}{visite\+::get\+Etat} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvisite_a731243b15c082ddff3294c09524c39e4}\label{classvisite_a731243b15c082ddff3294c09524c39e4}} 
+void \hyperlink{classvisite_a731243b15c082ddff3294c09524c39e4}{changer\+Etat} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classvisite_a731243b15c082ddff3294c09524c39e4}{visite\+::changer\+Etat} Procédure modifiant l\textquotesingle{}état de la visite, de \textquotesingle{}p\textquotesingle{} programmée à \textquotesingle{}a\textquotesingle{} affectée, ou de \textquotesingle{}a\textquotesingle{} affectée à \textquotesingle{}r\textquotesingle{} réalisé \end{DoxyCompactList}\item 
+Q\+String \hyperlink{classvisite_a7a948dd8b5c805a1f2a7d62c9268cb97}{get\+Info\+Visite} ()
+\begin{DoxyCompactList}\small\item\em Visite\+::get\+Info Fonction qui renvoie les informations d\textquotesingle{}une visite. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The visite class Permet de référencé les visites à réaliser à partir de la base de données. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classvisite_a197936c1244f7c9fd0a2eca7038533f9}\label{classvisite_a197936c1244f7c9fd0a2eca7038533f9}} 
+\index{visite@{visite}!visite@{visite}}
+\index{visite@{visite}!visite@{visite}}
+\subsubsection{\texorpdfstring{visite()}{visite()}}
+{\footnotesize\ttfamily visite\+::visite (\begin{DoxyParamCaption}\item[{Q\+Vector$<$ \hyperlink{class_borne}{Borne} $>$}]{les\+Bornes\+A\+Visiter,  }\item[{\hyperlink{class_station}{Station} $\ast$}]{une\+Station }\end{DoxyParamCaption})}
+
+
+
+visite\+::visite 
+
+
+\begin{DoxyParams}{Parameters}
+{\em les\+Bornes\+A\+Visiter} & vecteur recensant les bornes à visiter \\
+\hline
+{\em une\+Station} & station sur lesquelle le vetuer ce base pour savoir quelle borne est à visiter ce constructeur valorise tous les attributs privés de la classe Visite, y compris l\textquotesingle{}état et la durée totale de la visite \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classvisite_a608738dbddc358c0805228e0aac5818c}\label{classvisite_a608738dbddc358c0805228e0aac5818c}} 
+\index{visite@{visite}!get\+Duree\+Totale@{get\+Duree\+Totale}}
+\index{get\+Duree\+Totale@{get\+Duree\+Totale}!visite@{visite}}
+\subsubsection{\texorpdfstring{get\+Duree\+Totale()}{getDureeTotale()}}
+{\footnotesize\ttfamily int visite\+::get\+Duree\+Totale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classvisite_a608738dbddc358c0805228e0aac5818c}{visite\+::get\+Duree\+Totale} 
+
+\begin{DoxyReturn}{Returns}
+Fonction retournant la durée totale en minutes requise pour réaliser l\textquotesingle{}ensemble des révisions prévues sur les bornes de la station 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classvisite_a6da950d2a01048158c7abcc1ebdfec22}\label{classvisite_a6da950d2a01048158c7abcc1ebdfec22}} 
+\index{visite@{visite}!get\+Etat@{get\+Etat}}
+\index{get\+Etat@{get\+Etat}!visite@{visite}}
+\subsubsection{\texorpdfstring{get\+Etat()}{getEtat()}}
+{\footnotesize\ttfamily char visite\+::get\+Etat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classvisite_a6da950d2a01048158c7abcc1ebdfec22}{visite\+::get\+Etat} 
+
+\begin{DoxyReturn}{Returns}
+retourne l\textquotesingle{}état de la visite Soit il retourne si oui ou non la visite à était fait 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classvisite_a7a948dd8b5c805a1f2a7d62c9268cb97}\label{classvisite_a7a948dd8b5c805a1f2a7d62c9268cb97}} 
+\index{visite@{visite}!get\+Info\+Visite@{get\+Info\+Visite}}
+\index{get\+Info\+Visite@{get\+Info\+Visite}!visite@{visite}}
+\subsubsection{\texorpdfstring{get\+Info\+Visite()}{getInfoVisite()}}
+{\footnotesize\ttfamily Q\+String visite\+::get\+Info\+Visite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Visite\+::get\+Info Fonction qui renvoie les informations d\textquotesingle{}une visite. 
+
+\begin{DoxyReturn}{Returns}
+Chaine(\+Q\+String) \+: information au format texte de la visite (Etat,Durée,\hyperlink{class_station}{Station}) 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+visite.\+h\item 
+visite.\+cpp\end{DoxyCompactItemize}

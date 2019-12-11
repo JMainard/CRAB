@@ -1,0 +1,74 @@
+\hypertarget{class_station}{}\section{Station Class Reference}
+\label{class_station}\index{Station@{Station}}
+
+
+The \hyperlink{class_station}{Station} class Permet de savoir dans qu\textquotesingle{}elle sation il faut faire de la maintenance.  
+
+
+
+
+{\ttfamily \#include $<$station.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_station_ab3ce87c57bdf6c30fa057764a195c4a3}\label{class_station_ab3ce87c57bdf6c30fa057764a195c4a3}} 
+{\bfseries Station} (int un\+Id\+Station, Q\+String un\+Libelle\+Emplacement, Q\+Vector$<$ \hyperlink{class_borne}{Borne} $>$ un\+Vecteur\+Borne)
+\item 
+int \hyperlink{class_station_a55b1b6e24c949165ca96d038125b72a6}{get\+Id} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_station_a55b1b6e24c949165ca96d038125b72a6}{Station\+::get\+Id}. \end{DoxyCompactList}\item 
+Q\+String \hyperlink{class_station_a6d4fa8bd0c2afa28aae831cd04938394}{get\+Libelle\+Emplacement} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_station_a6d4fa8bd0c2afa28aae831cd04938394}{Station\+::get\+Libelle\+Emplacement}. \end{DoxyCompactList}\item 
+\hyperlink{classvisite}{visite} $\ast$ \hyperlink{class_station_a0f0c47ed8e52e6d506c50512b915049a}{get\+Visite\+A\+Faire} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_station_a0f0c47ed8e52e6d506c50512b915049a}{Station\+::get\+Visite\+A\+Faire}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_station}{Station} class Permet de savoir dans qu\textquotesingle{}elle sation il faut faire de la maintenance. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_station_a55b1b6e24c949165ca96d038125b72a6}\label{class_station_a55b1b6e24c949165ca96d038125b72a6}} 
+\index{Station@{Station}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!Station@{Station}}
+\subsubsection{\texorpdfstring{get\+Id()}{getId()}}
+{\footnotesize\ttfamily int Station\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_station_a55b1b6e24c949165ca96d038125b72a6}{Station\+::get\+Id}. 
+
+\begin{DoxyReturn}{Returns}
+retourne l\textquotesingle{}identifiant de la station Fonctions retournant l\textquotesingle{}identifiant de la \hyperlink{class_station}{Station} en int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_station_a6d4fa8bd0c2afa28aae831cd04938394}\label{class_station_a6d4fa8bd0c2afa28aae831cd04938394}} 
+\index{Station@{Station}!get\+Libelle\+Emplacement@{get\+Libelle\+Emplacement}}
+\index{get\+Libelle\+Emplacement@{get\+Libelle\+Emplacement}!Station@{Station}}
+\subsubsection{\texorpdfstring{get\+Libelle\+Emplacement()}{getLibelleEmplacement()}}
+{\footnotesize\ttfamily Q\+String Station\+::get\+Libelle\+Emplacement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_station_a6d4fa8bd0c2afa28aae831cd04938394}{Station\+::get\+Libelle\+Emplacement}. 
+
+\begin{DoxyReturn}{Returns}
+retourne le libellé de l\textquotesingle{}emplacement Fonctions retournant les informations des Emplacements des Stations 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_station_a0f0c47ed8e52e6d506c50512b915049a}\label{class_station_a0f0c47ed8e52e6d506c50512b915049a}} 
+\index{Station@{Station}!get\+Visite\+A\+Faire@{get\+Visite\+A\+Faire}}
+\index{get\+Visite\+A\+Faire@{get\+Visite\+A\+Faire}!Station@{Station}}
+\subsubsection{\texorpdfstring{get\+Visite\+A\+Faire()}{getVisiteAFaire()}}
+{\footnotesize\ttfamily \hyperlink{classvisite}{visite} $\ast$ Station\+::get\+Visite\+A\+Faire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_station_a0f0c47ed8e52e6d506c50512b915049a}{Station\+::get\+Visite\+A\+Faire}. 
+
+\begin{DoxyReturn}{Returns}
+retourne une instance de classe Visite retourne une instance de classe Visite recensant toutes les bornes de la station qui nécessitent d\textquotesingle{}être révisées, ou null s\textquotesingle{}il n\textquotesingle{}y a aucune borne à réviser 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+station.\+h\item 
+station.\+cpp\end{DoxyCompactItemize}

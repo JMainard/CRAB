@@ -1,0 +1,151 @@
+\hypertarget{class_date}{}\section{Date Class Reference}
+\label{class_date}\index{Date@{Date}}
+
+
+The \hyperlink{class_date}{Date} class Permet de savoir la date afin de vérifier si il y aura besoin de maintenance ou non.  
+
+
+
+
+{\ttfamily \#include $<$date.\+h$>$}
+
+
+
+Inheritance diagram for Date\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{class_date__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Date\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=125pt]{class_date__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_date_a2e0c4707435a4c3390e138b9ac6ee3f5}{Date} (int une\+Anne, int un\+Mois, int un\+Jour)
+\begin{DoxyCompactList}\small\item\em Date\+::\+Date. \end{DoxyCompactList}\item 
+int \hyperlink{class_date_a99c5677274bdaffadaedad4c888ccbca}{get\+Annee} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_date_a99c5677274bdaffadaedad4c888ccbca}{Date\+::get\+Annee}. \end{DoxyCompactList}\item 
+int \hyperlink{class_date_a6b16211abaa2c22418e82b8cd9d08bfe}{get\+Mois} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_date_a6b16211abaa2c22418e82b8cd9d08bfe}{Date\+::get\+Mois}. \end{DoxyCompactList}\item 
+int \hyperlink{class_date_a961e64bff2fdff7ee95bc335ca400d2f}{get\+Jour} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_date_a961e64bff2fdff7ee95bc335ca400d2f}{Date\+::get\+Jour}. \end{DoxyCompactList}\item 
+int \hyperlink{class_date_a45f1086b5028cdc71f7645f0a91d7731}{difference} (\hyperlink{class_date}{Date} une\+Date)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_date_a45f1086b5028cdc71f7645f0a91d7731}{Date\+::difference}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_date}{Date} \hyperlink{class_date_a4712c0d9ecfeb49472a847a905f62150}{aujourdhui} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_date_a4712c0d9ecfeb49472a847a905f62150}{Date\+::aujourdhui}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_date}{Date} class Permet de savoir la date afin de vérifier si il y aura besoin de maintenance ou non. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_date_a2e0c4707435a4c3390e138b9ac6ee3f5}\label{class_date_a2e0c4707435a4c3390e138b9ac6ee3f5}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\subsubsection{\texorpdfstring{Date()}{Date()}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{int}]{une\+Anne,  }\item[{int}]{un\+Mois,  }\item[{int}]{un\+Jour }\end{DoxyParamCaption})}
+
+
+
+Date\+::\+Date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em une\+Anne} & \\
+\hline
+{\em un\+Mois} & \\
+\hline
+{\em un\+Jour} & Constructeur permettant de récuperer la \hyperlink{class_date}{Date} du jour \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_date_a4712c0d9ecfeb49472a847a905f62150}\label{class_date_a4712c0d9ecfeb49472a847a905f62150}} 
+\index{Date@{Date}!aujourdhui@{aujourdhui}}
+\index{aujourdhui@{aujourdhui}!Date@{Date}}
+\subsubsection{\texorpdfstring{aujourdhui()}{aujourdhui()}}
+{\footnotesize\ttfamily \hyperlink{class_date}{Date} Date\+::aujourdhui (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\hyperlink{class_date_a4712c0d9ecfeb49472a847a905f62150}{Date\+::aujourdhui}. 
+
+\begin{DoxyReturn}{Returns}
+Retourne la date du jour Retourne la date du jour grace à la fonction Q\+Date sous forme Y\+Y-\/\+M\+M-\/\+D\+D\+DD 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_a45f1086b5028cdc71f7645f0a91d7731}\label{class_date_a45f1086b5028cdc71f7645f0a91d7731}} 
+\index{Date@{Date}!difference@{difference}}
+\index{difference@{difference}!Date@{Date}}
+\subsubsection{\texorpdfstring{difference()}{difference()}}
+{\footnotesize\ttfamily int Date\+::difference (\begin{DoxyParamCaption}\item[{\hyperlink{class_date}{Date}}]{une\+Date }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_date_a45f1086b5028cdc71f7645f0a91d7731}{Date\+::difference}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em une\+Date} & représente la date de la dernière revision de la borne \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retourne un int pour avoir une différence entre 2 jour Fonction permettant de savoir combien de jour /mois /année il y a de différence entre 2 date date à rentrer et une\+Date (\hyperlink{class_date}{Date} de révision ici) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_a99c5677274bdaffadaedad4c888ccbca}\label{class_date_a99c5677274bdaffadaedad4c888ccbca}} 
+\index{Date@{Date}!get\+Annee@{get\+Annee}}
+\index{get\+Annee@{get\+Annee}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Annee()}{getAnnee()}}
+{\footnotesize\ttfamily int Date\+::get\+Annee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_date_a99c5677274bdaffadaedad4c888ccbca}{Date\+::get\+Annee}. 
+
+\begin{DoxyReturn}{Returns}
+Retourne une variable int qui représente une année 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_a961e64bff2fdff7ee95bc335ca400d2f}\label{class_date_a961e64bff2fdff7ee95bc335ca400d2f}} 
+\index{Date@{Date}!get\+Jour@{get\+Jour}}
+\index{get\+Jour@{get\+Jour}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Jour()}{getJour()}}
+{\footnotesize\ttfamily int Date\+::get\+Jour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_date_a961e64bff2fdff7ee95bc335ca400d2f}{Date\+::get\+Jour}. 
+
+\begin{DoxyReturn}{Returns}
+Retourne une variable int qui représente un Jour 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_date_a6b16211abaa2c22418e82b8cd9d08bfe}\label{class_date_a6b16211abaa2c22418e82b8cd9d08bfe}} 
+\index{Date@{Date}!get\+Mois@{get\+Mois}}
+\index{get\+Mois@{get\+Mois}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Mois()}{getMois()}}
+{\footnotesize\ttfamily int Date\+::get\+Mois (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_date_a6b16211abaa2c22418e82b8cd9d08bfe}{Date\+::get\+Mois}. 
+
+\begin{DoxyReturn}{Returns}
+Retourne une variable int qui représente un Mois 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+date.\+h\item 
+date.\+cpp\end{DoxyCompactItemize}
